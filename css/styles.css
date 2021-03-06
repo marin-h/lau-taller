@@ -2458,12 +2458,12 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #64a19d;
+  background-color: #00574e;
   border-color: #64a19d;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #548b87;
+  background-color: #6f9958;
   border-color: #4f837f;
 }
 .btn-primary:focus, .btn-primary.focus {
@@ -10118,6 +10118,7 @@ body {
 }
 
 #mainNav {
+  font-weight: bold;
   min-height: 3.5rem;
   background-color: #fff;
 }
@@ -10154,12 +10155,13 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.8);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.8);
+    font-size: larger;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -10207,7 +10209,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-masthead.jpg");
+  background: url("../assets/img/bg-masthead.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10245,13 +10247,13 @@ body {
   }
   .masthead h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 1.8rem;
+    font-weight: bold;
   }
 }
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -10342,4 +10344,10 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.card ul,
+.card ul li {
+    margin-left: 0;
+    padding-left: 0;
 }
