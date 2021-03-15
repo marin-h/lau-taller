@@ -10356,3 +10356,18 @@ body {
     margin-left: 0;
     padding-left: 0;
 }
+
+ /* Container holding the image and the text */
+ .logo-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.logo-centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
