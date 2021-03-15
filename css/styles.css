@@ -10362,6 +10362,11 @@ body {
   position: relative;
   text-align: center;
   color: white;
+  background: transparent;
+  border-radius: 50%;
+  border-style: none;
+  width: 100px;
+  height: 100px;
 }
 
 /* Centered text */
@@ -10372,6 +10377,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 } 
+
 @font-face {
   font-family: Existence-UnicaseLight;
   src: url(../fonts/Existence-UnicaseLight.otf) format("opentype");
