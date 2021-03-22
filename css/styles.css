@@ -4316,10 +4316,10 @@ input[type=button].btn-block {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
   color: rgba(0, 0, 0, 0.7);
@@ -10132,7 +10132,7 @@ body {
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: #000000;
+  color: #ffffff;
   font-weight: 700;
   padding: 0.9rem 0;
 }
@@ -10150,7 +10150,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: rgb(255, 255, 255, 0.45);
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -10228,7 +10228,6 @@ body {
           background-clip: text;
 }
 .masthead h2 {
-  text-shadow: 0.1rem 0.08em #d6ecc659;
   max-width: 20rem;
   font-size: 1rem;
 }
@@ -10291,7 +10290,7 @@ body {
 
 .signup-section {
   padding: 4rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
+  background: url("../assets/img/contacto.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10309,8 +10308,9 @@ body {
 }
 
 .contact-section {
-  background-color: rgb(0, 97, 82);
+  background-image: url("../assets/img/agenda.jpg");
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .contact-section .card {
   border: 0;
@@ -10357,28 +10357,38 @@ body {
     padding-left: 0;
 }
 
- /* Container holding the image and the text */
- .logo-container {
-  position: relative;
-  text-align: center;
-  color: white;
-  background: transparent;
-  border-radius: 50%;
-  border-style: none;
-  width: 100px;
-  height: 100px;
-}
+  /* Container holding the image and the text */
+  .logo-container {
+    text-align: center;
+    color: white;
+    background: transparent;
+    border-radius: 50%;
+    border-style: none;
+  }
 
-/* Centered text */
-.logo-centered-text {
+  /* Centered text */
+.logo-text {
   font-family: Existence-UnicaseLight;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 12rem;
+  line-height: 10.5rem;
 } 
-
+  
 @font-face {
   font-family: Existence-UnicaseLight;
   src: url(../fonts/Existence-UnicaseLight.otf) format("opentype");
+}
+
+#bajada {
+  color: #fff;
+  font-size: 2.5rem;
+
+}
+
+.logo-img {
+  max-width: 350px;
+  width:100%;
 }
