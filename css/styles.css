@@ -10392,3 +10392,7 @@ body {
   max-width: 350px;
   width:100%;
 }
+
+.shorthead {
+  height: unset !important;
+}
