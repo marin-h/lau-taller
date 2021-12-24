@@ -10228,6 +10228,12 @@ body {
 
   color: white;
 }
+
+.masthead h3 {
+
+  color: white;
+}
+
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
@@ -10395,4 +10401,8 @@ body {
 
 .w-40 {
   max-width: 40%;
+}
+
+#agenda ul {
+  list-style-type: none;
 }
