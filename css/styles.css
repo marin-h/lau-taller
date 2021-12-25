@@ -10417,3 +10417,237 @@ body {
 .logo {
   max-width: 35%;
 }
+
+/* textos */
+
+
+.c15 {
+  color: #ff0000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 11pt;
+  font-family: "Arial";
+  font-style: normal
+}
+
+.c7 {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 15pt;  font-style: normal
+}
+
+.c1 {
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 11pt;
+  font-family: "Arial";
+  font-style: normal
+}
+
+.c0 {
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+  line-height: 1.15;
+  orphans: 2;
+  widows: 2;
+  text-align: left;
+  height: 11pt
+}
+
+.c6 {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 11pt;
+  font-family: "Arial";
+  font-style: normal
+}
+
+.c5 {
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 10pt;
+  font-family: "Arial";
+  font-style: normal
+}
+
+.c11 {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-size: 12pt;  font-style: normal
+}
+
+.c35 {
+  -webkit-text-decoration-skip: none;
+  color: #000000;
+  text-decoration: underline;
+  vertical-align: baseline;
+  text-decoration-skip-ink: none;
+  font-style: normal
+}
+
+.c25 {
+  padding-top: 18pt;
+  padding-bottom: 4pt;
+  line-height: 1.15;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+.c24 {
+  -webkit-text-decoration-skip: none;
+  color: #2e2e00;
+  text-decoration: underline;
+  vertical-align: baseline;
+  text-decoration-skip-ink: none;
+  font-style: normal
+}
+
+.c2 {
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+  line-height: 1.15;
+  orphans: 2;
+  widows: 2;
+  text-align: left
+}
+
+.c33 {
+  text-decoration-skip-ink: none;
+  -webkit-text-decoration-skip: none;
+  color: #1155cc;
+  font-weight: 700;
+  text-decoration: underline
+}
+
+.c10 {
+  font-size: 15pt;  color: #2e2e00;
+  font-weight: 400
+}
+
+.c12 {
+  font-size: 14pt;  color: #2e2e00;
+  font-weight: 700
+}
+
+.c18 {
+  font-size: 15pt;  color: #2e2e00;
+  font-weight: 700
+}
+
+.c13 {
+  font-size: 19pt;  color: #2e2e00;
+  font-weight: 700
+}
+
+.c8 {
+  padding-top: 0pt;
+  padding-bottom: 5pt;
+  line-height: 1.15;
+  text-align: left
+}
+
+.c28 {
+  color: #2e2e00;
+  font-weight: 700;
+  font-size: 13pt;
+  font-family: "Lora"
+}
+
+.c9 {
+  font-size: 12pt;  color: #2e2e00;
+  font-weight: 400
+}
+
+.c19 {
+  font-size: 14pt;  color: #2e2e00;
+  font-weight: 400
+}
+
+.c31 {
+  font-size: 17pt;
+  font-weight: 400
+}
+
+.c21 {
+  background-color: #ffffff;
+  max-width: 451.4pt;
+  padding: 72pt 72pt 72pt 72pt
+}
+
+.c16 {
+  font-size: 16pt;
+  font-weight: 700
+}
+
+.c23 {
+  text-decoration: none;
+  vertical-align: baseline;
+  font-style: normal
+}
+
+.c20 {
+  font-size: 12pt;
+  font-weight: 400
+}
+
+.c14 {
+  font-size: 12pt;
+  font-weight: 700
+}
+
+.c29 {
+  font-size: 15pt;
+  font-weight: 700
+}
+
+.c32 {
+  padding: 0;
+  margin: 0
+}
+
+.c3 {
+  margin-left: 36pt;
+  padding-left: 0pt
+}
+
+.c26 {
+  color: inherit;
+  text-decoration: inherit
+}
+
+.c27 {
+  font-weight: 700;
+  font-style: italic
+}
+
+.c22 {
+  margin-left: 36pt
+}
+
+.c36 {
+  font-weight: 700
+}
+
+.c17 {
+  height: 11pt
+}
+
+.texto-taller p {
+  margin-bottom: unset;
+}
+
+.texto-taller div {
+  margin-bottom: 2rem;
+}
