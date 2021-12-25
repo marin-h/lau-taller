@@ -10413,3 +10413,7 @@ body {
 #agenda ul {
   list-style-type: none;
 }
+
+.logo {
+  max-width: 35%;
+}
