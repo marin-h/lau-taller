@@ -10414,9 +10414,16 @@ body {
   list-style-type: none;
 }
 
-.logo {
-  max-width: 35%;
+
+@media (min-width: 768px) {
+  .logo  {
+    max-width: 35%;
+  }
 }
+
+
+
+
 
 /* textos */
 
